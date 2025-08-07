@@ -10,6 +10,7 @@ console.log("main has", maine.children.length, "elements");
 console.log("childNodes:", maine.childNodes.length);
 console.log("children:", maine.children.length);
 console.log("diff is", maine.childNodes.length - maine.children.length);
+// the difference is that childNodes includes all types of nodes (text, comment, etc.), while children only includes element nodes.
 
 // 4. first thing in body
 const firstThing = document.body.childNodes[0];
